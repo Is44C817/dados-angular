@@ -1,0 +1,7 @@
+<div class="jumbotron text-center">
+  <button class="btn btn-success btn-lg" (click)="tirarDados()">{{ dados }}</button>
+  <br>
+  <img class="img" [src]="dadoInzquierda">
+  <img class="img" [src]="dadoDerecha">
+  <h1 *ngIf="numero1 === numero2"><span class="badge badge-success">{{ ganaste }}</span></h1>
+</div>
